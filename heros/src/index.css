@@ -1,0 +1,90 @@
+h1{
+  color: rgb(0, 60, 132);
+}
+.nav-cont{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.nav-div button{
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+.nav-div button:hover{
+  background-color: rgb(0, 60, 132);
+  color: white;
+}
+.disp-div a{
+  padding: 1rem 3rem;
+  text-decoration: none;
+  background-color: rgb(0, 60, 132);
+  color: white;
+  border-radius: 5px;
+}
+.disp-div a:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.disp-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.disp-a{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.disp-srch form{
+  margin: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#srch{
+  width: 50rem;
+  padding: 0.25rem 0;
+}
+#submit{
+  width: 50rem;
+  border-radius: 0px;
+  background-color: white;
+  border:1px solid black;
+  padding:0.25rem 0;
+  z-index: 99;
+}
+#submit:hover{
+  color:white;
+  background-color: rgb(0, 60, 132);
+  border-color: rgb(0, 60, 132);
+}
+.msg-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.msg-div h2{
+  color: rgba(206, 1, 1, 0.808);
+}
+.msg-div button{
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+.msg-div button:hover{
+  background-color: rgb(0, 60, 132);
+  color: white;
+}
