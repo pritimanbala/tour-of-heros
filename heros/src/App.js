@@ -1,21 +1,23 @@
-import Detail from './detail';
+import Detail from './elements/detail';
 import Disp from './elements/display';
+import List from './elements/list';
 import Msg from './elements/message';
 import Navb from './elements/navbar';
-import ReactDOM from "react-dom/client";
-import {Router, Route, Routes} from "react-router-dom"
+
+import {BrowserRouter, Route, Routes} from "react-router-dom"
  
 function App() {
   return (
     <div className="App">
-      <Router>
+      <BrowserRouter>
         <Navb />
         <Routes>
-        {/* <Disp /> */}
-        <Detail/>
+        <Route path='/' element={<Disp/>} />
+        <Route path='/detail/:name' element={<Detail/> }/>
+        <Route path='/heros' element={<List/>}/>
         </Routes>
         <Msg />
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
