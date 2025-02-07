@@ -41,8 +41,8 @@ const Detail = ({ hashira, change }) => {
       <div>
         <h2>Change the name of your Hashira:</h2>
         <textarea
-          rows="5"
-          cols="40"
+          rows="1"
+          cols="30"
           value={text}
           onChange={handleChange}
           style={{
