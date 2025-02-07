@@ -3,7 +3,7 @@ import Detail from './elements/detail';
 import Disp from './elements/display';
 import List from './elements/list';
 import Navb from './elements/navbar';
-import videoFile from './videoplayback.mp4'; // Import the video file
+import videoFile from './Timeline 1.mp4';
 
 
 import {BrowserRouter, Route, Routes} from "react-router-dom"
@@ -67,17 +67,6 @@ function App() {
       },
       {
         "id": 6,
-        "name": "Mitsuri Kanroji",
-        "title": "Love Hashira",
-        "abilities": [
-          "Love Breathing",
-          "Extreme flexibility",
-          "Immense strength"
-        ],
-        "img": "https://imgs.search.brave.com/QOkCRbdsoeNKH9E558wWjzqrji6HmRvP6Qy8dv6dLWc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvbWl0c3VyaS1r/YW5yb2ppLXBpY3R1/cmVzLTVycGlmbXo4/MXhrcGhkbDQuanBn"
-      },
-      {
-        "id": 7,
         "name": "Muichiro Tokito",
         "title": "Mist Hashira",
         "abilities": [
@@ -86,6 +75,17 @@ function App() {
           "Sharp and analytical mind"
         ],
         "img":"https://imgs.search.brave.com/A8WHCfUnvTt-FNExTzGtriIxuENR9ZlYd26vmqsHVHU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwLmdhbWVyYW50/aW1hZ2VzLmNvbS93/b3JkcHJlc3Mvd3At/Y29udGVudC91cGxv/YWRzLzIwMjQvMDIv/bXVpY2hpcm8tdGhl/LW1pc3QtaGFzaGly/YS1kZW1vbi1zbGF5/ZXItc3dvcmRzbWl0/aC12aWxsYWdlLWFy/Yy0xLmpwZWc"
+      },
+      {
+        "id": 7,
+        "name": "Mitsuri Kanroji",
+        "title": "Love Hashira",
+        "abilities": [
+          "Love Breathing",
+          "Extreme flexibility",
+          "Immense strength"
+        ],
+        "img": "https://imgs.search.brave.com/QOkCRbdsoeNKH9E558wWjzqrji6HmRvP6Qy8dv6dLWc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvbWl0c3VyaS1r/YW5yb2ppLXBpY3R1/cmVzLTVycGlmbXo4/MXhrcGhkbDQuanBn"
       },
       {
         "id": 8,

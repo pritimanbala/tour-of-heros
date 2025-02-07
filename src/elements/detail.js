@@ -38,7 +38,7 @@ const Detail = ({ hashira, change }) => {
         ))}
       </div>
 
-      <div>
+      <div className="dtl-srch">
         <h2>Change the name of your Hashira:</h2>
         <textarea
           rows="1"
@@ -55,6 +55,7 @@ const Detail = ({ hashira, change }) => {
         <br />
         <button
           onClick={handleSave}
+          
           style={{
             marginTop: "10px",
             padding: "10px 20px",
